@@ -1,0 +1,5 @@
+<p> <%= @post.title %> </p><br>
+<p> <%= @post.article %> </p><br>
+<p> <%= @post.user.email %> </p><br>
+
+<%= link_to "Edit", edit_post_path(@post) %>
