@@ -2,6 +2,16 @@ require 'rails_helper'
 
 RSpec.describe PostsController, type: :controller do
 
+	before { sign_in(create(:user)) }
+
+  	describe 'unauthenticated' do
+		it 'redirects user to login page when not signed in' do
+	 		sign_out(:user)
+	 		get :index
+	 		expect(response).to redirect_to(new_user_session_path)
+   		end
+   	end
+
 	describe "GET #index" do
 
 		it 'renders the index template' do

@@ -1,12 +1,15 @@
 FactoryGirl.define do
   factory :user do
-    username "MyString"
-    email "MyString"
+    firstname {FFaker::Name.first_name}
+    lastname {FFaker::Name.last_name}
+    email {FFaker::Internet.email}
+    password 'Password1'
+    encrypted_password 'Password1'
 
     factory :user_with_posts do
       after(:build) do |user|
-      	[:election, :thanksgiving].each do |post|
-          user.posts << FactoryGirl.build(:election, user: user)
+        [:election, :thanksgiving].each do |post|
+          user.posts << FactoryGirl.create(post, user: user)
         end
       end
     end

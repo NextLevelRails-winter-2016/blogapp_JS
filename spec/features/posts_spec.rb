@@ -2,6 +2,9 @@ require 'rails_helper'
 
 feature "posts/index" do
   scenario "renders a list of posts" do
+    user = create(:user_with_posts)
+    sign_in(user)
+
     create(:election)
     create(:thanksgiving)
 
@@ -15,6 +18,7 @@ end
 feature 'New Task' do
   scenario 'user adds a new post' do
     user = create(:user)
+    sign_in(user)
     visit posts_path
 
     expect{
@@ -33,9 +37,11 @@ end
 
 feature 'Edit Post' do
 
+  let(:user) {create(:user)}
   let(:post) { create(:thanksgiving)}
 
   scenario 'User edits post' do
+    sign_in(user)
     visit post_path(post)
     expect(page).to have_content('thanksgiving')
 

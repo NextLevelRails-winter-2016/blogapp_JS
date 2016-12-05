@@ -1,0 +1,134 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/models/post.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/controllers/posts_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        2,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/jswirat/Desktop/TTS/NextLevel/Homework/blogapp_JS/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1480948995
+  }
+}

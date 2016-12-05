@@ -38,6 +38,9 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rails-controller-testing'
   gem 'database_cleaner'
+  gem 'simplecov', require: false, group: :test
+  gem 'devise'
+  gem 'ffaker'
 end
 
 group :development do
